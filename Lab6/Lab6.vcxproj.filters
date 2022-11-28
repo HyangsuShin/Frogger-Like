@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\musics">
+      <UniqueIdentifier>{e6c26255-49d2-4280-b00c-a8fc2a73c1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\pictures">
+      <UniqueIdentifier>{6fd3e97e-ac13-4fd1-a4af-63656f488433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\font">
+      <UniqueIdentifier>{490ff983-0568-4430-a6d5-06da6400128f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{f0373701-bca2-46d5-af0b-187ccf65b898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Buttons">
+      <UniqueIdentifier>{a95e435d-8620-4e24-989b-860455ce6f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Background">
+      <UniqueIdentifier>{d1d002e7-f444-4398-95ab-ad89b307b7c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CApp_OnCleanup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CApp_OnEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CApp_OnInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CApp_OnLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CApp_OnRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CScroll_Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpriteSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CScroll_Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpriteSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mywindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Frogger.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioBtn.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionBtn.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffectBtn.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="RiverScroll.h">
+      <Filter>Header Files\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodScroll.h">
+      <Filter>Header Files\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodBtn.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="musics\background.wav">
+      <Filter>Resource Files\musics</Filter>
+    </Media>
+    <Media Include="musics\gameover.wav">
+      <Filter>Resource Files\musics</Filter>
+    </Media>
+    <Media Include="musics\goal.wav">
+      <Filter>Resource Files\musics</Filter>
+    </Media>
+    <Media Include="musics\jump.wav">
+      <Filter>Resource Files\musics</Filter>
+    </Media>
+    <Media Include="musics\plunk.wav">
+      <Filter>Resource Files\musics</Filter>
+    </Media>
+    <Media Include="musics\squash.wav">
+      <Filter>Resource Files\musics</Filter>
+    </Media>
+    <Media Include="musics\start.wav">
+      <Filter>Resource Files\musics</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pictures\bg.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\frog_0.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\frog_1.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\goal_frog.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\log_0.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\log_1.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\log_2.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\river.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\turtle_0.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\turtle_1.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\vehicle_0.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\vehicle_1.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\vehicle_2.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\vehicle_3.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\vehicle_4.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\gameMethod.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+    <Image Include="pictures\pause.bmp">
+      <Filter>Resource Files\pictures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font\lazy.ttf">
+      <Filter>Resource Files\font</Filter>
+    </Font>
+    <Font Include="font\Sketchy.ttf">
+      <Filter>Resource Files\font</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
